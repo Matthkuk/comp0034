@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+<h1>Football statistics</h1>
+<p>There are 5 databases, 14/15, 15/16, 16/17, 17/18, and 18/19 seasons.</p>
+<a href="http://127.0.0.1:5000/api/matches"><button>14/15</button></a>
+<a href="http://127.0.0.1:5000/api/matches1516">15/16</a>
+<a href="http://127.0.0.1:5000/api/matches1617"><button>16/17</button></a>
+<a href="http://127.0.0.1:5000/api/matches1718">17/18</a>
+<a href="http://127.0.0.1:5000/api/matches1819"><button>18/19</button></a>
+<p><a href="http://127.0.0.1:5000/dashboard">Here</a> is a visualisation dashboard for the data detailed in the databases. Enjoy!</p>
+</body>
+</html>
+{% endblock %}

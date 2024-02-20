@@ -1,0 +1,23 @@
+p {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+a {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 2rem;
+    background-color: #afc533;
+}
+
+body {
+    background-color: #66ac38;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
