@@ -1,0 +1,10 @@
+pandas
+openpyxl
+flask
+flask-sqlalchemy
+flask-wtf
+flask-marshmallow
+marshmallow-sqlalchemy
+requests
+dash
+dash-bootstrap-components
